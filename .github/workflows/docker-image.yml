@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build the Docker image
-        run: docker build . --file todos-docker-compose-main/client/Dockerfile --tag my-image-name:latest
+        run: docker build . --file todos-docker-compose-main/todos-docker-compose-main/client/Dockerfile --tag my-image-name:latest
